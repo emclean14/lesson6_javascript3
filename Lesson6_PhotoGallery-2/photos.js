@@ -31,7 +31,8 @@ function populateFigures() {
         filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
         currentFig = document.getElementsByTagName("img")[i];
         currentFig.src = filename;
-    }//end of for loop }//end of else
+    }//end of for loop 
+    }//end of else
 
 }//end of populateFigures function
 
